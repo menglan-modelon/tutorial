@@ -1,0 +1,43 @@
+{
+  "stickies": [
+    "tank1.height",
+    "tank3.level",
+    "pipe1.diameter"
+  ],
+  "stickyPositions": [
+    {
+      "component": "tank1",
+      "x": -5.0984416,
+      "y": 98.94342
+    },
+    {
+      "component": "pipe1",
+      "x": -96.57917,
+      "y": -42.265583
+    },
+    {
+      "component": "tank3",
+      "x": 110.64165,
+      "y": 90.35699
+    }
+  ],
+  "plots": [
+    {
+      "variables": [
+        "tank3.level"
+      ],
+      "colors": {
+        "tank3.level": [
+          "#1f77b4"
+        ]
+      },
+      "x": -9.265376,
+      "y": -32.996128,
+      "width": 500.0,
+      "height": 300.0,
+      "title": "Plot 1"
+    }
+  ],
+  "version": "1",
+  "name": "test2"
+}

@@ -1,0 +1,257 @@
+{
+  "ElectrificationTraining.Workshop01.Batteries.Experiments.DischargeNominal" : [ {
+    "created" : "2023-04-07T03:59:28.716Z",
+    "lastModified" : "2023-04-07T03:59:28.716Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "ElectrificationTraining.Workshop01.Batteries.Experiments.DischargeNominal",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 3600.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ {
+      "type" : "text",
+      "value" : "*summary.?"
+    } ],
+    "isDefault" : true
+  } ],
+  "ElectrificationTraining.Workshop01.Batteries.Experiments.DischargeLinear" : [ {
+    "created" : "2023-04-07T03:59:28.716Z",
+    "lastModified" : "2023-04-07T03:59:28.716Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "ElectrificationTraining.Workshop01.Batteries.Experiments.DischargeLinear",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 3600.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  } ],
+  "ElectrificationTraining.Workshop01.Batteries.Experiments.DischargeTabular" : [ {
+    "created" : "2023-04-07T03:59:28.716Z",
+    "lastModified" : "2023-04-07T03:59:28.716Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "ElectrificationTraining.Workshop01.Batteries.Experiments.DischargeTabular",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 3600.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  } ],
+  "ElectrificationTraining.Workshop02.Machines.Experiments.MachineWithInverter" : [ {
+    "created" : "2023-04-10T08:32:43.695Z",
+    "lastModified" : "2023-04-10T08:32:43.695Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "ElectrificationTraining.Workshop02.Machines.Experiments.MachineWithInverter",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 10.0,
+        "interval" : 0.001
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  }, {
+    "created" : "2023-04-10T09:31:52.423Z",
+    "lastModified" : "2023-04-10T09:31:52.423Z",
+    "name" : "Experiment 2",
+    "expressions" : [ {
+      "name" : "machine.core.L_d",
+      "expression" : "2e-3"
+    }, {
+      "name" : "machine.core.L_q",
+      "expression" : "2e-3"
+    }, {
+      "name" : "inverter.controller.torqueControl.iMax",
+      "expression" : "250"
+    } ],
+    "model" : "ElectrificationTraining.Workshop02.Machines.Experiments.MachineWithInverter",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 10.0,
+        "interval" : 0.01
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : false
+  }, {
+    "created" : "2023-04-11T05:42:37.415Z",
+    "lastModified" : "2023-04-11T05:42:37.415Z",
+    "name" : "Experiment 3",
+    "expressions" : [ {
+      "name" : "torque_ref.k",
+      "expression" : "range(0,400,5)"
+    } ],
+    "model" : "ElectrificationTraining.Workshop02.Machines.Experiments.MachineWithInverter",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 10.0,
+        "interval" : 0.01
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : false
+  } ],
+  "ElectrificationTraining.Workshop02.Machines.Experiments.GeneralizedNominal" : [ {
+    "created" : "2023-04-10T08:32:43.695Z",
+    "lastModified" : "2023-04-10T08:32:43.695Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "ElectrificationTraining.Workshop02.Machines.Experiments.GeneralizedNominal",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 10.0,
+        "interval" : 0.001
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  }, {
+    "created" : "2023-04-10T09:31:52.423Z",
+    "lastModified" : "2023-04-10T09:31:52.423Z",
+    "name" : "Experiment 2",
+    "expressions" : [ {
+      "name" : "machine.core.L_d",
+      "expression" : "2e-3"
+    }, {
+      "name" : "machine.core.L_q",
+      "expression" : "2e-3"
+    }, {
+      "name" : "inverter.controller.torqueControl.iMax",
+      "expression" : "250"
+    } ],
+    "model" : "ElectrificationTraining.Workshop02.Machines.Experiments.GeneralizedNominal",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 10.0,
+        "interval" : 0.01
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : false
+  }, {
+    "created" : "2023-04-11T05:42:37.415Z",
+    "lastModified" : "2023-04-11T05:42:37.415Z",
+    "name" : "Experiment 3",
+    "expressions" : [ {
+      "name" : "torque_ref.k",
+      "expression" : "range(0,400,5)"
+    } ],
+    "model" : "ElectrificationTraining.Workshop02.Machines.Experiments.GeneralizedNominal",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 10.0,
+        "interval" : 0.01
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : false
+  } ],
+  "ElectrificationTraining.Workshop03.Powertrains.Experiments.Acceleration1a" : [ {
+    "created" : "2023-04-12T05:15:49.098Z",
+    "lastModified" : "2023-04-12T05:15:49.098Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "ElectrificationTraining.Workshop03.Powertrains.Experiments.Acceleration1a",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 120.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  } ],
+  "ElectrificationTraining.Workshop03.Powertrains.Experiments.Acceleration1b" : [ {
+    "created" : "2023-04-12T05:15:49.098Z",
+    "lastModified" : "2023-04-12T05:15:49.098Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "ElectrificationTraining.Workshop03.Powertrains.Experiments.Acceleration1b",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 120.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  } ],
+  "ElectrificationTraining.Workshop03.Powertrains.Experiments.Acceleration2a" : [ {
+    "created" : "2023-04-12T05:15:49.098Z",
+    "lastModified" : "2023-04-12T05:15:49.098Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "ElectrificationTraining.Workshop03.Powertrains.Experiments.Acceleration2a",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 120.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  } ],
+  "ElectrificationTraining.Workshop01.Batteries.Experiments.TimeSeries" : [ {
+    "created" : "2023-04-20T06:29:10.225Z",
+    "lastModified" : "2023-04-20T06:29:10.225Z",
+    "name" : "Experiment 1",
+    "expressions" : [ ],
+    "model" : "ElectrificationTraining.Workshop01.Batteries.Experiments.TimeSeries",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 1180.0,
+        "tolerance" : 1.0E-5,
+        "interval" : 1.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ {
+      "type" : "activeViews",
+      "value" : "Active view(s)"
+    } ],
+    "isDefault" : true
+  } ]
+}

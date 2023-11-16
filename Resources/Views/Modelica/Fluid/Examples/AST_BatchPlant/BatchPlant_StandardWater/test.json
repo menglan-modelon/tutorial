@@ -1,0 +1,23 @@
+{
+  "stickies": [],
+  "stickyPositions": [],
+  "plots": [
+    {
+      "variables": [
+        "B6.level"
+      ],
+      "colors": {
+        "B6.level": [
+          "#1f77b4"
+        ]
+      },
+      "x": -567.0913,
+      "y": 210.87961,
+      "width": 500.0,
+      "height": 300.0,
+      "title": "Plot 1"
+    }
+  ],
+  "version": "1",
+  "name": "test"
+}

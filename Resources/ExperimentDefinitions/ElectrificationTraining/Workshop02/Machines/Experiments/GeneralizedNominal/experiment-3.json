@@ -1,0 +1,51 @@
+{
+  "version": "1",
+  "id": "65558888a7a3459ebc5fa2ddec54a26e",
+  "experiment": {
+    "base": {
+      "analysis": {
+        "variableFilters": [],
+        "selectedType": "dynamic",
+        "choices": [
+          {
+            "type": "dynamic",
+            "parameters": {
+              "final_time": 10.0,
+              "interval": 0.01
+            },
+            "simulationOptions": {
+              "solver": "CVode",
+              "dynamic_diagnostics": true
+            },
+            "solverOptions": {},
+            "compilerOptions": {
+              "generate_html_diagnostics": true
+            },
+            "runtimeOptions": {}
+          },
+          {
+            "type": "steady state",
+            "parameters": {},
+            "simulationOptions": {},
+            "solverOptions": {},
+            "compilerOptions": {},
+            "runtimeOptions": {}
+          }
+        ]
+      },
+      "modifiers": {
+        "variables": [
+          {
+            "name": "torque_ref.k",
+            "expression": "range(0,400,5)"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "created": "2023-04-11T05:42:37.415Z",
+    "lastModified": "2023-04-11T05:42:37.415Z",
+    "name": "Experiment 3"
+  }
+}

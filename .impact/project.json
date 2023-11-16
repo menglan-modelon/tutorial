@@ -1,0 +1,76 @@
+{
+  "name": "introduction",
+  "format": "1.0.0",
+  "dependencies": [
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    },
+    {
+      "name": "LiquidCooling",
+      "versionSpecifier": "2.11.0+build.30"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "4.3.0+build.20"
+    },
+    {
+      "name": "Electrification",
+      "versionSpecifier": "1.10.0+build.22"
+    }
+  ],
+  "content": [
+    {
+      "relpath": "ElectrificationTraining",
+      "contentType": "MODELICA",
+      "name": "ElectrificationTraining",
+      "defaultDisabled": false,
+      "id": "05650c7d13614707b8c478f7d52692b3"
+    },
+    {
+      "relpath": "Workspace",
+      "contentType": "MODELICA",
+      "name": "Workspace",
+      "defaultDisabled": false,
+      "id": "209550a6f5ca4997bd0c8fa4e31959fa"
+    },
+    {
+      "relpath": "Resources/Views",
+      "contentType": "VIEWS",
+      "defaultDisabled": false,
+      "id": "237a61f992a74f448f5220194be854d0"
+    },
+    {
+      "relpath": "Resources/Favorites",
+      "contentType": "FAVORITES",
+      "defaultDisabled": false,
+      "id": "db69cd054b404469869bea8b822a94f3"
+    },
+    {
+      "relpath": "Resources/ExperimentDefinitions",
+      "contentType": "EXPERIMENT_DEFINITIONS",
+      "defaultDisabled": false,
+      "id": "1a1426e7210f4f95ab31c8972afa13c5"
+    },
+    {
+      "relpath": "Resources/Custom",
+      "contentType": "GENERIC",
+      "defaultDisabled": false,
+      "id": "6e7bd73db03949f48d49cf0de184315b"
+    }
+  ],
+  "executionOptions": [
+    {
+      "customFunction": "dynamic",
+      "compiler": {
+        "generate_html_diagnostics": 1.0
+      },
+      "runtime": {},
+      "simulation": {
+        "solver": "CVode",
+        "dynamic_diagnostics": 1.0
+      },
+      "solver": {}
+    }
+  ]
+}

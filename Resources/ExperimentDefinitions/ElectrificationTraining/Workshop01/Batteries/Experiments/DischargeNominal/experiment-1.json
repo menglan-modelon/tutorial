@@ -1,0 +1,50 @@
+{
+  "version": "1",
+  "id": "bf80811aee1f4153bcca60e23ed43f2c",
+  "experiment": {
+    "base": {
+      "analysis": {
+        "variableFilters": [
+          {
+            "type": "text",
+            "value": "*summary.?"
+          }
+        ],
+        "selectedType": "dynamic",
+        "choices": [
+          {
+            "type": "dynamic",
+            "parameters": {
+              "final_time": 3600.0
+            },
+            "simulationOptions": {
+              "solver": "CVode",
+              "dynamic_diagnostics": true
+            },
+            "solverOptions": {},
+            "compilerOptions": {
+              "generate_html_diagnostics": true
+            },
+            "runtimeOptions": {}
+          },
+          {
+            "type": "steady state",
+            "parameters": {},
+            "simulationOptions": {},
+            "solverOptions": {},
+            "compilerOptions": {},
+            "runtimeOptions": {}
+          }
+        ]
+      },
+      "modifiers": {
+        "variables": []
+      }
+    }
+  },
+  "metadata": {
+    "created": "2023-04-07T03:59:28.716Z",
+    "lastModified": "2023-04-07T03:59:28.716Z",
+    "name": "Experiment 1"
+  }
+}

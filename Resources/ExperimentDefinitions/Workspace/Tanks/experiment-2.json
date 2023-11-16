@@ -1,0 +1,46 @@
+{
+  "version" : "1",
+  "id" : "68df119a3d974aaca4a712f226bf0182",
+  "experiment" : {
+    "base" : {
+      "analysis" : {
+        "variableFilters" : [ ],
+        "selectedType" : "dynamic",
+        "choices" : [ {
+          "type" : "dynamic",
+          "parameters" : {
+            "final_time" : 100
+          },
+          "simulationOptions" : {
+            "dynamic_diagnostics" : true,
+            "solver" : "CVode"
+          },
+          "solverOptions" : { },
+          "compilerOptions" : {
+            "generate_html_diagnostics" : true
+          },
+          "runtimeOptions" : { }
+        }, {
+          "type" : "steady state",
+          "parameters" : { },
+          "simulationOptions" : { },
+          "solverOptions" : { },
+          "compilerOptions" : { },
+          "runtimeOptions" : { }
+        } ]
+      },
+      "modifiers" : {
+        "initializeFrom" : "",
+        "variables" : [ {
+          "name" : "pipe.diameter",
+          "expression" : "0.2"
+        } ]
+      }
+    }
+  },
+  "metadata" : {
+    "created" : "2023-03-02T07:36:06.778Z",
+    "lastModified" : "2023-10-24T01:42:09.032995342Z",
+    "name" : "Experiment 2"
+  }
+}

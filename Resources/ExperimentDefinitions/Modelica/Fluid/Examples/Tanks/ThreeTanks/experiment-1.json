@@ -1,0 +1,54 @@
+{
+  "version": "1",
+  "id": "e0eb529acbeb4b54bf0232134af957fa",
+  "experiment": {
+    "base": {
+      "analysis": {
+        "variableFilters": [],
+        "selectedType": "dynamic",
+        "choices": [
+          {
+            "type": "dynamic",
+            "parameters": {
+              "final_time": 200.0
+            },
+            "simulationOptions": {
+              "solver": "CVode",
+              "dynamic_diagnostics": true
+            },
+            "solverOptions": {},
+            "compilerOptions": {
+              "generate_html_diagnostics": true
+            },
+            "runtimeOptions": {}
+          },
+          {
+            "type": "steady state",
+            "parameters": {},
+            "simulationOptions": {},
+            "solverOptions": {},
+            "compilerOptions": {},
+            "runtimeOptions": {}
+          }
+        ]
+      },
+      "modifiers": {
+        "variables": [
+          {
+            "name": "tank1.height",
+            "expression": "9"
+          },
+          {
+            "name": "pipe1.diameter",
+            "expression": "0.2"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "created": "2022-07-20T05:37:46.132Z",
+    "lastModified": "2022-07-20T05:37:46.132Z",
+    "name": "Experiment 1"
+  }
+}

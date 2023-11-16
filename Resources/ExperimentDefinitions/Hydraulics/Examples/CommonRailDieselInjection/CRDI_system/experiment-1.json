@@ -1,0 +1,53 @@
+{
+  "version": "1",
+  "id": "812e90a8d4cc4e84837cf2bace5dd3d6",
+  "experiment": {
+    "base": {
+      "analysis": {
+        "variableFilters": [],
+        "selectedType": "dynamic",
+        "choices": [
+          {
+            "type": "dynamic",
+            "parameters": {
+              "final_time": 0.25,
+              "interval": 0.0001
+            },
+            "simulationOptions": {
+              "solver": "CVode",
+              "dynamic_diagnostics": true
+            },
+            "solverOptions": {
+              "rtol": 1e-06
+            },
+            "compilerOptions": {
+              "generate_html_diagnostics": true
+            },
+            "runtimeOptions": {}
+          },
+          {
+            "type": "steady state",
+            "parameters": {},
+            "simulationOptions": {},
+            "solverOptions": {},
+            "compilerOptions": {},
+            "runtimeOptions": {}
+          }
+        ]
+      },
+      "modifiers": {
+        "variables": [
+          {
+            "name": "rail2.length",
+            "expression": "range(1,5,1)"
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "created": "2022-08-31T01:24:45.218Z",
+    "lastModified": "2022-08-31T01:24:45.218Z",
+    "name": "Experiment 1"
+  }
+}

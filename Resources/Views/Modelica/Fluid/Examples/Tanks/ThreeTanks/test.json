@@ -1,0 +1,22 @@
+{
+  "stickies": [
+    "tank1.height",
+    "tank3.level",
+    "pipe1.diameter"
+  ],
+  "stickyPositions": [
+    {
+      "component": "tank1",
+      "x": -5.0984416,
+      "y": 98.94342
+    },
+    {
+      "component": "pipe1",
+      "x": -96.57917,
+      "y": -42.265583
+    }
+  ],
+  "plots": [],
+  "version": "1",
+  "name": "test"
+}

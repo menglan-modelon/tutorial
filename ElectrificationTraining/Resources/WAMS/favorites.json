@@ -1,0 +1,11 @@
+{
+  "version" : "2",
+  "data" : {
+    "ElectrificationTraining.Workshop01.Batteries.Experiments.TimeSeries" : { },
+    "ElectrificationTraining.Workshop02.Machines.Experiments.MachineWithInverter" : { },
+    "ElectrificationTraining.Workshop02.Machines.Experiments.MachineWithInverter_1" : { },
+    "ElectrificationTraining.Workshop03.Powertrains.Templates.SingleMotor" : { },
+    "ElectrificationTraining.Workshop03.Powertrains.Experiments.Templates.Acceleration" : { },
+    "ElectrificationTraining.Workshop03.Powertrains.Templates.DualMotor" : { }
+  }
+}

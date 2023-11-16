@@ -1,0 +1,60 @@
+{
+  "Workspace.Tanks" : [ {
+    "created" : "2022-07-01T10:28:03.383Z",
+    "lastModified" : "2022-07-01T10:28:03.383Z",
+    "name" : "Experiment 1",
+    "expressions" : [ {
+      "name" : "pipe.diameter",
+      "expression" : "0.2"
+    } ],
+    "model" : "Workspace.Tanks",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 100.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : true
+  }, {
+    "created" : "2023-03-02T07:36:06.778Z",
+    "lastModified" : "2023-03-02T07:36:06.778Z",
+    "name" : "Experiment 2",
+    "expressions" : [ {
+      "name" : "pipe.diameter",
+      "expression" : "0.2"
+    } ],
+    "model" : "Workspace.Tanks",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 100.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : false
+  }, {
+    "created" : "2023-04-19T05:57:27.610Z",
+    "lastModified" : "2023-04-19T05:57:27.610Z",
+    "name" : "Experiment 3",
+    "expressions" : [ {
+      "name" : "pipe.diameter",
+      "expression" : "range(0.1,0.5,5)"
+    } ],
+    "model" : "Workspace.Tanks",
+    "settings" : {
+      "dynamic" : {
+        "stopTime" : 100.0
+      },
+      "steadyState" : { },
+      "custom" : { },
+      "simulationType" : "dynamic"
+    },
+    "filters" : [ ],
+    "isDefault" : false
+  } ]
+}

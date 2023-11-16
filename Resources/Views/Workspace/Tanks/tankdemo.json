@@ -1,0 +1,62 @@
+{
+  "stickies": [
+    "tank.m",
+    "tank.level",
+    "tank2.level",
+    "tank2.m",
+    "pipe.diameter"
+  ],
+  "stickyPositions": [
+    {
+      "component": "pipe",
+      "x": 1.6834825,
+      "y": -17.695747
+    },
+    {
+      "component": "tank",
+      "x": 26.942503,
+      "y": 103.463234
+    }
+  ],
+  "plots": [
+    {
+      "variables": [
+        "tank.level",
+        "tank2.level"
+      ],
+      "colors": {
+        "tank.level": [
+          "#1f77b4",
+          "#9467bd"
+        ],
+        "tank2.level": [
+          "#ff7f0e",
+          "#8c564b"
+        ]
+      },
+      "x": -157.14894,
+      "y": 86.78047,
+      "width": 500.0,
+      "height": 300.0,
+      "title": "water level"
+    },
+    {
+      "variables": [
+        "pipe2.port_a.m_flow"
+      ],
+      "colors": {
+        "pipe2.port_a.m_flow": [
+          "#2ca02c",
+          "#d62728"
+        ]
+      },
+      "x": 43.944237,
+      "y": 97.79588,
+      "width": 500.0,
+      "height": 296.0,
+      "title": "pipe flow"
+    }
+  ],
+  "version": "1",
+  "name": "tankdemo"
+}

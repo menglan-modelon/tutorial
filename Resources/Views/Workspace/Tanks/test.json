@@ -1,0 +1,36 @@
+{
+  "stickies": [
+    "tank.m"
+  ],
+  "stickyPositions": [
+    {
+      "component": "tank",
+      "x": -67.81894,
+      "y": 55.12447
+    },
+    {
+      "component": "pipe",
+      "x": -55.917873,
+      "y": 15.703192
+    }
+  ],
+  "plots": [
+    {
+      "variables": [
+        "tank.level"
+      ],
+      "colors": {
+        "tank.level": [
+          "#1f77b4"
+        ]
+      },
+      "x": -146.77979,
+      "y": 23.254467,
+      "width": 500.0,
+      "height": 300.0,
+      "title": "Plot 1"
+    }
+  ],
+  "version": "1",
+  "name": "test"
+}
